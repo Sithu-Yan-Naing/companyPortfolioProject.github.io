@@ -1,0 +1,276 @@
+/* Banner */
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+    
+}
+
+/* .banner img {
+    height: 70%;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    object-fit: cover;
+    width: 100%;
+} */
+
+ .banner-container-a {
+    background: linear-gradient(45deg,
+    rgba(255, 255, 255, 0.5),
+    rgba(35, 74, 143, 0.534)), url(../img/Slider\ 3.jpg);
+    
+     /* background-image: url(../img/Slider\ 3.jpg); */
+     height: 250px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+ }
+
+ /* background: radial-gradient(yellow, blue); */
+            
+ .banner-inner-a {
+     text-align: center;
+     position: absolute;
+     width: 100%;
+     color: whitesmoke;
+     height: auto;
+     margin-top: 50px;
+ }
+
+
+ .banner-container-s {
+    background: linear-gradient(45deg,
+    rgba(255, 255, 255, 0.5),
+    rgba(35, 74, 143, 0.534)), url(../img/Slider\ 3.jpg);
+    
+     /* background-image: url(../img/Slider\ 3.jpg); */
+     height: 250px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+ }
+
+ /* background: radial-gradient(yellow, blue); */
+            
+ .banner-inner-s {
+     text-align: center;
+     position: absolute;
+     width: 100%;
+     color: whitesmoke;
+     height: auto;
+     margin-top: 50px;
+ }
+
+
+ .banner-container-p {
+    background: linear-gradient(45deg,
+    rgba(255, 255, 255, 0.5),
+    rgba(35, 74, 143, 0.534)), url(../img/Slider\ 3.jpg);
+    
+     /* background-image: url(../img/Slider\ 3.jpg); */
+     height: 250px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+ }
+
+ /* background: radial-gradient(yellow, blue); */
+            
+ .banner-inner-p {
+     text-align: center;
+     position: absolute;
+     width: 100%;
+     color: whitesmoke;
+     height: auto;
+     margin-top: 50px;
+ }
+
+ .banner-container-c {
+    background: linear-gradient(45deg,
+    rgba(255, 255, 255, 0.5),
+    rgba(35, 74, 143, 0.534)), url(../img/Slider\ 3.jpg);
+    
+     /* background-image: url(../img/Slider\ 3.jpg); */
+     height: 250px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+ }
+
+ /* background: radial-gradient(yellow, blue); */
+            
+ .banner-inner-c {
+     text-align: center;
+     position: absolute;
+     width: 100%;
+     color: whitesmoke;
+     height: auto;
+     margin-top: 50px;
+ }
+
+
+/* about */
+.container-about img {
+    margin: 70px;
+    width: 40%;
+    padding: 8px;
+
+}
+
+.text {
+    
+    float: left;
+    width: 550px;
+    height: 400px;
+    padding: 50px;
+    margin: 50px;
+    
+}
+
+.content-subtitle {
+    
+    background: gray;
+    display: inline-block;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    
+    
+}
+
+.service {
+    text-align: center;
+    padding: 60px, 0px;
+    margin: 50px;
+    
+}
+
+.container-s {
+    background-color: rgba(179, 195, 231, 0.41);
+}
+
+.project {
+    margin: 60px;
+}
+.project-card {
+    width: 30%;
+    height: 250px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.project-card-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-out;
+}
+
+.project-card-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-card-text {
+    position: absolute;
+    bottom: 20px;
+    color: chocolate;
+    text-align: left;
+    padding: 20px;
+}
+
+.project-btn {
+    text-decoration: none;
+    background-color: rgb(184, 184, 3);
+    color: rgba(255, 255, 255, 0.781);
+
+    padding: 5px;
+    display: inline-block;
+    transition: all 0.5s ease-in;
+    font-size: 10px;
+}
+
+.project-btn:hover {
+    background-color: transparent;
+    border: 1px solid transparent;
+    transform: translateY(-10%);
+    color: chocolate;
+}
+
+
+.project-card-text h3 {
+    margin: 20px 0px;
+}
+.project-card-bg:hover {
+    transform: scale(1.1);
+}
+
+/* .project-card:hover .project-card-bg {
+    transform: scale(1.1);
+} */
+
+.project-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.project-card-bg::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top, rgb(30, 181, 236), transparent);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+
+
+}
+
+.project-card-bg:hover::after {
+    opacity: 1;
+}
+
+.container-c img {
+    width: 90px;    
+    margin: 50px;
+    padding: 2px;
+    
+}
+
+.container-c {
+    display: flex;
+    justify-content: center;
+}
+
+.container-contact h2 {
+    margin: 30px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.container button {
+    background-color: rgb(23, 162, 208);
+    color: white;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgba(39, 38, 72, 0.925);
+    color: aliceblue;
+}
